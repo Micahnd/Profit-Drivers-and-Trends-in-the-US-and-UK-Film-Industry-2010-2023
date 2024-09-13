@@ -9,29 +9,32 @@ This project explores the relationships between key factors in the UK and US mov
 - Examine genre-level investment and return, highlighting profitable genres and areas for improvement
 - Investigate release year trends by metrics provided by the dataset
 
-## Data Sources
-- Movies main data obtained from asaniczka, (2024). Full TMDB Movies Dataset 2024 (1M Movies) (Data obtained from The Movie Database [TMDB]). Retrieved from [Kaggle](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data)
-
-- Popularity metrics obtained from TMDB Popularity Guides, (2024): Retrieved from [TMDB docs](https://developer.themoviedb.org/docs/popularity-and-trending#tv-shows)
-
-- Movie Parent Company data obtained and clarified from Wikipedia. (n.d.). List of film production companies. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/List_of_film_production_companies)
-
 ## Tools
 - Python(Pandas) - Data Cleaning 
 - Power Bi - Data Transformation, Exploration and Visualization
+- 
+## Methodology
 
-## Data Cleaning/Preparation
-At the data cleaning phase, I performed the following tasks uisng Python
-- Data loading and inspection
-- Handling missing data
-- Data formatting
-- *ipynb file showcasing the steps taken in this process is provided in this repository*
+- **Data Collection**: I collected movie data from TMDB Movies Dataset 2024 on Kaggle.
+- **Data Cleaning and Preprocessing**: I handled missing values using Python's Pandas library, dropping inconsistent and missing values, also some missing values were sourced from trusted and verified web sources and manually plugged in. Duplicate entries were removed and columns containing irrelevant information removed, data was also filtered to contain only information that fit within the scope of the analysis.
+- **Data Transformation and Feature Engineering**: Using Power Bi, I created new bridge tables to establish relationship between different factors in the data, calculated Correlation Coefficients and created an average profit column using the Power BI measure
+```Power BI
+Average Net Profit = 
+AVERAGE('Movies Main Table'[Revenue(USD)]) - AVERAGE('Movies Main Table'[Production Budget(USD)])
+```
+- **Data Visualization and Exploration:** - Created various charts and visualizations in Power BI to identify patterns and trends, also explored relationships between variables, including net profit and other factors.
 
-## Data Transformation
-At the Data transformation phase, I performed the follwing tasks using power Bi
-- Creating New Columns off Main Table
-- Creating Bridge Tables
-- Aggregating data
+## Key Findings
+- Budget and Profit Correlation: A strong correlation exists between budget and profit, indicating that production companies with higher budgets tend to generate more profit from movies.
+- Multivariate Correlations: Moderate correlations are observed between runtime, average rating, and budget, suggesting interconnected relationships between these factors.
+- Genre Impact on Profit: Budget is not the sole determining factor for profit; movie genre also significantly impacts profitability.
+- 2020 Profit Decline: Profit from movies declined in 2020, with many production companies recording substantial losses.
+- Trends in Runtime and Budget: The runtime of movies and average budget have increased over the years, especially after 2020.
+
+
+
+
+
 
 ## Data Exploration
 At the Data Exploration phase, I asked the following questions:
@@ -54,8 +57,15 @@ At the Data Exploration phase, I asked the following questions:
   - Net Profit and Popularity: 0.15 (very weak positive correlation)
   - Net Profit and Runtime: 0.30 (weak positive correlation)
 
-From the Correlation Coefficients, it is observed that budget is the major player in determining a movie's financial success but, it's not the only factor at play. A great rating, engaging runtime, and very minimally, popularity can all contribute to a movie's financial success, but they are no definite guarantees of success. Surprisingly, popularity has little or no significant impact on Profit.
+From the Correlation Coefficients, I observed that budget is the major player in determining a movie's financial success but, it's not the only factor at play. A great rating and engaging runtime can all contribute to a movie's financial success, but they are no definite guarantees of success. Notably, runtime has a significant impact on both expenses made on a movie and viewer ratings, striking a good balance. Surprisingly, popularity has little or no significant impact on Profit.
+
+## Insights and Visualizations
 
 
 
+## Referrences
+- Movies main data obtained from asaniczka, (2024). Full TMDB Movies Dataset 2024 (1M Movies) (Data obtained from The Movie Database [TMDB]). Retrieved from [Kaggle](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data)
 
+- Popularity metrics obtained from TMDB Popularity Guides, (2024): Retrieved from [TMDB docs](https://developer.themoviedb.org/docs/popularity-and-trending#tv-shows)
+
+- Movie Parent Company data obtained and clarified from Wikipedia. (n.d.). List of film production companies. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/List_of_film_production_companies)
