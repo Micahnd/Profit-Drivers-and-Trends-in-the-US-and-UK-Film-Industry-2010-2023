@@ -12,7 +12,7 @@ This project explores the relationships between key factors in the UK and US mov
 ## Tools
 - Python(Pandas) - Data Cleaning 
 - Power Bi - Data Transformation, Exploration and Visualization
-- 
+
 ## Methodology
 
 - **Data Collection**: I collected movie data from TMDB Movies Dataset 2024 on Kaggle.
@@ -31,33 +31,44 @@ AVERAGE('Movies Main Table'[Revenue(USD)]) - AVERAGE('Movies Main Table'[Product
 - 2020 Profit Decline: Profit from movies declined in 2020, with many production companies recording substantial losses.
 - Trends in Runtime and Budget: The runtime of movies and average budget have increased over the years, especially after 2020.
 
+## Visualizations
+  To better understand the relationships between factors and answer questions posed, I calculated correlation coefficients using Power BI. The scatter plots and figures below illustrate the correlations:
+
+ <img width="608" alt="2024-09-13 (10)" src="https://github.com/user-attachments/assets/204c374a-bd76-442a-a64a-68658b1c45bd">
+ 
+ *Fig 1: Correlation Analysis*
+ 
+The gauges on fig 1 show the **positive** correlation between movie attributes and key factors, with colors indicating strength: Burgundy (**very strong**), Pink (**moderate**), Orange (**weak**), and Blue (**very weak**). These visualizations alongside the scatter plots provide a quick overview of the relationships between key attributes.
+
+*Insights*
+- Budget is the primary driver of a movie's financial success, but not the sole factor.
+- High ratings and engaging runtime can contribute to success, but offer no guarantees.
+- Runtime significantly impacts both expenses and viewer ratings, requiring a delicate balance.
+- Surprisingly, popularity has little to no significant impact on Profit.
+
+Building on the correlation insights from Fig. 1, I delved deeper into the relationship between budget and profit. Fig. 2 presents a detailed analysis of how budget impacts profit, highlighting trends and patterns in movie production by production companies.
+
+<img width="608" alt="2024-09-13 (11)" src="https://github.com/user-attachments/assets/e85beec1-3c9d-4aa3-9b8c-0aea07b1d52d">
+
+*Fig. 2: Budget and Profit Analysis By Production Company*
+
+<img width="612" alt="2024-09-13 (12)" src="https://github.com/user-attachments/assets/5f4d0be5-7fa7-4af9-9e43-bf30a7a39465">
+
+*Fig. 3: A better view on 2020 financial Performance*
+
+The visualizations in fig 2 and 3 reveal the complex relationship between budget and profit in the movie industry, highlighting trends, outliers, and key insights.
+- Walt Disney stands out as the top earner in the UK and USA movie industries on average accumulated profit from 2010-2023, as shown in the column chart. 
+- The bar and column charts reveal a correlation between bigger budgets and higher profits, but with a twist. Some companies with smaller budgets outperformed those with larger ones, suggesting that other factors like genre, marketing, and audience reception may play a significant role in financial success.
+- Performance Over Time and a deeper view reveal a striking dip in profits and substantial losses in 2020, with Walt Disney among the companies hit hard, despite having large budgets. Some companies also had no budgets and revenues at all.
 
 
 
 
 
-## Data Exploration
-At the Data Exploration phase, I asked the following questions:
-  - What are the factors affecting profit?
-  - What relationships exist between the different factors in the movie industry?
-  - What are the top performing production companies on profit?
-  - What trends are observable over the years in the movie industry?   
-#### Correlation Analysis
-  To better understand the relationships between factors and answer questions posed, I calculated correlation coefficients using Power BI. The scatter plots and figures 
-  below illustrate the correlations:
-  
-  <img width="608" alt="2024-09-13 (10)" src="https://github.com/user-attachments/assets/204c374a-bd76-442a-a64a-68658b1c45bd">
 
-  
-  Using the Power BI correlation coefficient function, I calculated and displayed the Correlation Coefficient of key variables in the movie industry, all of which displayed some level of positive relationship. Scatter plots were also used to further visualize the relationships between these key variables. The gauge visuals above display the correlation coefficients between:
-  - Net Profit and Average Rating: 0.29 (weak positive correlation)
-  - Budget and Runtime: 0.42 (moderate positive correlation)
-  - Runtime and Average Rating: 0.40 (moderate positive correlation)
-  - Net Profit and Budget: 0.64 (strong positive correlation)
-  - Net Profit and Popularity: 0.15 (very weak positive correlation)
-  - Net Profit and Runtime: 0.30 (weak positive correlation)
 
-From the Correlation Coefficients, I observed that budget is the major player in determining a movie's financial success but, it's not the only factor at play. A great rating and engaging runtime can all contribute to a movie's financial success, but they are no definite guarantees of success. Notably, runtime has a significant impact on both expenses made on a movie and viewer ratings, striking a good balance. Surprisingly, popularity has little or no significant impact on Profit.
+
+
 
 ## Insights and Visualizations
 
