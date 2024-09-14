@@ -98,25 +98,13 @@ This analysis provides valuable insights for film industry stakeholders, highlig
 
 This study's findings are based on a dataset covering the United Kingdom and United States of America film industries from 2010 to 2023. While this provides valuable insights, it may not represent global trends or other time periods. Additionally, the dataset's focus on film-level data means that individual contributors, such as actors and casts, are not examined. Future research could explore these factors to provide a more comprehensive understanding of the film industry
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Referrences
 - asaniczka, (2024). Full TMDB Movies Dataset 2024 (1M Movies) [Dataset]. Retrieved from [Kaggle](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data)
 
 - TMDB Popularity Guides, (2024): Retrieved from [TMDB docs](https://developer.themoviedb.org/docs/popularity-and-trending#tv-shows)
 
 - Wikipedia. (n.d.). List of film production companies. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/List_of_film_production_companies)
+
+## License
+
+*This project uses the TMDB Movies Dataset from Kaggle, licensed under ODC-By.*
