@@ -46,7 +46,7 @@ The gauges on fig 1 show the **positive** correlation between movie attributes a
 - Runtime significantly impacts both expenses and viewer ratings, requiring a delicate balance.
 - Surprisingly, popularity has little to no significant impact on Profit.
 
-Building on the correlation insights from Fig. 1, I delved deeper into the relationship between budget and profit. Fig. 2 presents a detailed analysis of how budget impacts profit, highlighting trends and patterns in movie production by production companies.
+Building on the correlation insights from Fig. 1, I delved deeper into the relationship between budget and profit. Fig. 2 and 3 present detailed analysis of how budget impacts profit, highlighting trends and patterns in movie production by production companies.
 
 <img width="608" alt="2024-09-13 (11)" src="https://github.com/user-attachments/assets/e85beec1-3c9d-4aa3-9b8c-0aea07b1d52d">
 
@@ -56,10 +56,24 @@ Building on the correlation insights from Fig. 1, I delved deeper into the relat
 
 *Fig. 3: A better view on 2020 financial Performance*
 
-The visualizations in fig 2 and 3 reveal the complex relationship between budget and profit in the movie industry, highlighting trends, outliers, and key insights.
+The visualizations in fig 2 and 3 reveal the complex relationship between budget and profit in the movie industry, showing trends, outliers, and key insights.
 - Walt Disney stands out as the top earner in the UK and USA movie industries on average accumulated profit from 2010-2023, as shown in the column chart. 
 - The bar and column charts reveal a correlation between bigger budgets and higher profits, but with a twist. Some companies with smaller budgets outperformed those with larger ones, suggesting that other factors like genre, marketing, and audience reception may play a significant role in financial success.
-- Performance Over Time and a deeper view reveal a striking dip in profits and substantial losses in 2020, with Walt Disney among the companies hit hard, despite having large budgets. Some companies also had no budgets and revenues at all.
+- Performance Over Time reveal a striking dip in profits and substantial losses in 2020, with Walt Disney among the companies hit hard, despite having large budgets. Some companies also had no budgets and revenues at all.
+
+<img width="610" alt="2024-09-13 (13)" src="https://github.com/user-attachments/assets/7746b291-df0b-4236-9a93-82c63bf29574">
+
+*Fig. 4: Budgeting Trends and Analysis by Movie Genre*
+
+
+Building on the budget-profit analysis in Fig. 2 and 3, Fig. 4 explores genre-specific budgeting patterns and their impact on profit. The following findings were made:
+- Top Genres by Average profit tend to attract more investments: Walt Disney dominates profit by investing significantly in top performing genres.
+- Budgeting strategies, not just total spend, influence profit.
+- In 2020 companies significantly reduced movie productions, as seen in the drastic drop in total production budgets.
+- However, average budget per movie remained relatively stable, indicating focused investments in fewer, higher-quality productions.
+- Post-2020, companies increased average budget per movie substantially, suggesting a strategic shift towards quality over quantity, likely in a bid to recover from the previous losses.
+
+
 
 
 
