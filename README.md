@@ -108,10 +108,10 @@ This analysis provides valuable insights for film industry stakeholders, highlig
 
 To increase profitability and enhance audience engagement, I suggest the following to movie production companies:
 
-- Diversify production strategies by investing in a mix of genres, including those with proven track records of success (e.g., Adventure, Animation, Science Fiction)
-- Focus on quality over quantity by prioritizing fewer, higher-quality productions with moderate budgets ($150-200 million) and engaging runtimes (1.5-2.5 hours)
-- Adapt to changing market conditions by monitoring audience preferences and adjusting production strategies accordingly
-- Balance runtime and pacing by ensuring runtime aligns with genre expectations and maintains audience engagement
+- Diversify production strategies by investing in a mix of genres, including those with proven track records of success (e.g., Adventure, Animation, Science Fiction).
+- Focus on quality over quantity by prioritizing fewer, higher-quality productions with moderate budgets ($150-200 million) and engaging runtimes (1.5-2.5 hours).
+- Adapt to changing market conditions by monitoring audience preferences and adjusting production strategies accordingly.
+- Balance runtime and pacing by ensuring runtime aligns with genre expectations and maintains audience engagement.
 
 
 ## Limitations
