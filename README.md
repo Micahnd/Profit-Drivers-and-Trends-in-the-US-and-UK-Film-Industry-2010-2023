@@ -16,8 +16,8 @@ This project explores the relationships between key factors in the UK and US mov
 ## Methodology
 
 - **Data Collection**: I collected movie data from TMDB Movies Dataset 2024 on Kaggle.
-- **Data Cleaning and Preprocessing**: I handled missing values using Python's Pandas library, dropping inconsistent and missing values, also some missing values were sourced from trusted and verified web sources and manually plugged in. Duplicate entries were removed and columns containing irrelevant information removed, data was also filtered to contain only information that fit within the scope of the analysis.
-- **Data Transformation and Feature Engineering**: Using Power Bi, I created new bridge tables to establish relationship between different factors in the data, calculated Correlation Coefficients and created an average profit column using the Power BI measure
+- **Data Cleaning and Preprocessing**: I handled missing values using **Python's Pandas** library, dropping inconsistent and missing values, also some missing values were sourced from trusted and verified web sources and manually plugged in. Duplicate entries were removed and columns containing irrelevant information removed, data was also filtered to contain only information that fit within the scope of the analysis. The Python code is available in the attached file, [Python Code Attachment].zip
+- **Data Transformation and Feature Engineering**: Using **Power Bi**, I created new bridge tables to establish relationship between different factors in the data, calculated Correlation Coefficients and created an average profit column using the Power BI measure
 ```Power BI
 Average Net Profit = 
 AVERAGE('Movies Main Table'[Revenue(USD)]) - AVERAGE('Movies Main Table'[Production Budget(USD)])
@@ -73,7 +73,7 @@ Building on the budget-profit analysis in Fig. 2 and 3, Fig. 4 explores genre-sp
 - However, average budget per movie remained relatively stable, indicating focused investments in fewer, higher-quality productions.
 - Post-2020, companies increased average budget per movie substantially, suggesting a strategic shift towards quality over quantity, possibly to offset pandemic-related losses.
 
-Finally, to idenify more trends and gain more insight on the post 2020 reactions, fig 5 examines the trends in movie runtime and average rating over the years, revealing an interesting correlation.
+Finally, to identify more trends and gain more insight on the post 2020 reactions, fig 5 examines the trends in movie runtime and average rating over the years, revealing an interesting correlation.
 
 <img width="611" alt="2024-09-14" src="https://github.com/user-attachments/assets/805de98a-3045-4fac-8e04-1e638cbd2fb9">
 
