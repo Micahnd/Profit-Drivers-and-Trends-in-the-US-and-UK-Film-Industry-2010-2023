@@ -49,10 +49,10 @@ The gauges on fig 1 show the **positive** correlation between movie attributes a
 *Insights*
 - Budget is the primary driver of a movie's financial success, but not the sole factor.
 - High ratings and engaging runtime can contribute to success, but offer no guarantees.
-- Runtime significantly impacts both expenses and viewer ratings, requiring a delicate balance.
+- Runtime considerably impacts both expenses and viewer ratings.
 - Surprisingly, popularity has little to no significant impact on Profit.
 
-Building on the correlation insights from Fig. 1, I delved deeper into the relationship between budget and profit. Fig. 2 and 3 present detailed analysis of how budget impacts profit, highlighting trends and patterns in movie production by production companies.
+Building on the correlation insights from Fig. 1, I examined the relationship between budget and profit. Fig. 2 and 3 present detailed analysis of how budget impacts profit, highlighting trends and patterns in movie production by production companies.
 
 <img width="608" alt="2024-09-13 (11)" src="https://github.com/user-attachments/assets/e85beec1-3c9d-4aa3-9b8c-0aea07b1d52d">
 
@@ -77,9 +77,9 @@ The visualizations in fig 2 and 3 reveal the complex relationship between budget
 Building on the budget-profit analysis in Fig. 2 and 3, Fig. 4 explores genre-specific budgeting patterns and their impact on profit. 
 
 *Insights*
-- Top Genres by Average profit tend to attract more investments: Walt Disney dominates profit by investing significantly in top performing genres.
+- Top Genres by Average profit tend to attract more investments: Walt Disney dominates profit by investing majorly in top performing genres.
 - Budgeting strategies, not just total spend, influence profit.
-- In 2020 companies significantly reduced movie productions, as seen in the drastic drop in total production budgets.
+- In 2020, companies clearly reduced movie productions, as seen in the drastic drop in total production budgets.
 - However, average budget per movie remained relatively stable, indicating focused investments in fewer, higher-quality productions.
 - Post-2020, companies increased average budget per movie substantially, suggesting a strategic shift towards quality over quantity, possibly to offset previous losses.
 
@@ -91,18 +91,18 @@ Finally, to identify more trends and gain more insight on the post 2020 reaction
 
 - Average runtime dipped in 2020, suggesting a shift in movie production strategies on same year due to constraints.
 - Average rating remained relatively unaffected in 2020, indicating that audiences adapted to the changes in movie production, prioritizing other factors over runtime for that year.
-- The post-2020 surge in average runtime and rating implies a potential shift towards more complex, high-quality storytelling further conforming to the quality over quantity insight.
+- The post-2020 surge in average runtime and rating implies a potential shift towards more complex, high-quality storytelling, further conforming to the quality over quantity insight.
 
 
 ## Conclusion
 
-This analysis has uncovered significant trends and insights in the US(United States Of America) and UK(United Kingdom) film industries from 2010 to 2023. A strong correlation between budget and profit suggests that production companies with higher budgets tend to generate more profit. However, the 2020 dip in profits, coinciding with the COVID-19 pandemic, reveals a more complex relationship between budget allocation, production strategies, and profitability.
+This analysis has uncovered trends and insights in the US(United States Of America) and UK(United Kingdom) film industries from 2010 to 2023. A strong correlation between budget and profit suggests that production companies with higher budgets tend to generate more profit. However, the 2020 dip in profits, coinciding with the COVID-19 pandemic, reveals a more complex relationship between budget allocation, production strategies, and profitability.
 
 The pandemic's impact on the industry led to reduced movie productions, changed consumer behavior and a temporary profit dip. Despite these, companies adapted by shifting their budget allocation towards more expensive, high-quality productions.
 
-Findings suggest budget is key, but genre and audience reception significantly impact profitability. The post-2020 surge in runtime and rating implies a shift towards complex storytelling by companies in a bid to survive the impact of the pandemic.
+Findings suggest budget is key, but genre and audience reception hugely impact profitability. The post-2020 surge in runtime and rating implies a shift towards complex storytelling by companies in a bid to survive the impact of the pandemic.
 
-This analysis provides valuable insights for film industry stakeholders, highlighting the importance of adapting to changing market conditions, diversifying production strategies, and investing in quality productions to ensure long-term profitability.
+This analysis provides valuable insights for film industry stakeholders, showcasing the importance of adapting to changing market conditions, diversifying production strategies, and investing in quality productions to ensure long-term profitability.
 
 ## Recommendations
 
