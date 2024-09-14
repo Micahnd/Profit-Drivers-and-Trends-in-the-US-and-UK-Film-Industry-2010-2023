@@ -24,6 +24,12 @@ AVERAGE('Movies Main Table'[Revenue(USD)]) - AVERAGE('Movies Main Table'[Product
 ```
 - **Data Visualization and Exploration:** - Created various charts and visualizations in Power BI to identify patterns and trends, also explored relationships between variables, including net profit and other factors.
 
+## Metrics Definition
+  - Revenue: The total amount made from movie
+  - Budget/Production Budget: The total budget allocated to the movie, including production, marketing, and distribution costs.
+  - Profit:(Net Profit, Average Net Profit) The average net profit per movie, calculated by subtracting the average total allocated budget from the average revenue.
+  - Popularity: A composite score based on: Number of votes for the day, Number of views for the day, Number of users who marked it as a "favourite" for the day, Number of users who added it to their "watchlist" for the day, number of total votes. Maximum value being 200.
+  - Average(AVG) Rating: A measure of the average of total rating by number of ratings.
 ## Key Findings
 - Budget and Profit Correlation: A strong correlation exists between budget and profit, indicating that production companies with higher budgets tend to generate more profit from movies.
 - Multivariate Correlations: Moderate correlations are observed between runtime, average rating, and budget, suggesting interconnected relationships between these factors.
