@@ -2,7 +2,7 @@
 ## Abstract
 Exploring the US(United States Of America) and UK(United Kingdom) film industries (2010-2023), this analysis reveals relationships between profit, budget, genre and audience reception. Using the TMDB data, I uncovered key trends and correlations. Notably, genre and audience reception significantly impact profitability, and film companies adapted to the COVID-19 pandemic by prioritizing quality productions. This study offers valuable insights for industry stakeholders, emphasizing flexibility and quality in navigating changing markets.
 
-## Key Objectives:
+## Key Objectives
 
 - Identify correlations between budget, runtime, average rating, and profit
 - Analyze the performance of top production companies by profit, average budget, average user rating and profit trends over time
@@ -31,7 +31,7 @@ AVERAGE('Movies Main Table'[Revenue(USD)]) - AVERAGE('Movies Main Table'[Product
 - 2020 Profit Decline: Profit from movies declined in 2020, with many production companies recording substantial losses.
 - Trends in Runtime and Budget: The runtime of movies and average budget have increased over the years, especially after 2020.
 
-## Visualizations
+## Visualizations and insights
   To better understand the relationships between factors and answer questions posed, I calculated correlation coefficients using Power BI. The scatter plots and figures below illustrate the correlations:
 
  <img width="608" alt="2024-09-13 (10)" src="https://github.com/user-attachments/assets/204c374a-bd76-442a-a64a-68658b1c45bd">
@@ -83,10 +83,8 @@ Finally, to identify more trends and gain more insight on the post 2020 reaction
 - Average rating remained relatively unaffected in 2020, indicating that audiences adapted to the changes in movie production, prioritizing other factors over runtime for that year.
 - The post-2020 surge in average runtime and rating implies a potential shift towards more complex, high-quality storytelling further conforming to the quality over quantity insight.
 
-Here's a conclusion based on your key insights:
 
-
-## Conclusion:
+## Conclusion
 
 This analysis has uncovered significant trends and insights in the US(United States Of America) and UK(United Kingdom) film industries from 2010 to 2023. A strong correlation between budget and profit suggests that production companies with higher budgets tend to generate more profit. However, the 2020 dip in profits, coinciding with the COVID-19 pandemic, reveals a more complex relationship between budget allocation, production strategies, and profitability.
 
@@ -95,6 +93,10 @@ The pandemic's impact on the industry led to reduced movie productions, changed 
 Findings suggest budget is key, but genre and audience reception significantly impact profitability. The post-2020 surge in runtime and rating implies a shift towards complex storytelling by companies in a bid to survive the impact of the pandemic.
 
 This analysis provides valuable insights for film industry stakeholders, highlighting the importance of adapting to changing market conditions, diversifying production strategies, and investing in quality productions to ensure long-term profitability.
+
+## Limitations
+
+This study's findings are based on a dataset covering the United Kingdom and United States of America film industries from 2010 to 2023. While this provides valuable insights, it may not represent global trends or other time periods. Additionally, the dataset's focus on film-level data means that individual contributors, such as actors and casts, are not examined. Future research could explore these factors to provide a more comprehensive understanding of the film industry
 
 
 
