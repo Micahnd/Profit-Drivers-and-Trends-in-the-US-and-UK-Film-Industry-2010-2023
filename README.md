@@ -16,7 +16,7 @@ Exploring the US(United States Of America) and UK(United Kingdom) film industrie
 ## Methodology
 
 - **Data Collection**: I collected movie data from TMDB Movies Dataset 2024 on Kaggle.
-- **Data Cleaning and Preprocessing**: I handled missing values using **Python's Pandas** library, dropping inconsistent and missing values, also some missing values were sourced from trusted and verified web sources and manually plugged in. Duplicate entries were removed and columns containing irrelevant information removed, data was also filtered to contain only information that fit within the scope of the analysis. The Python code is available in the attached file, [(Data Cleaning file.ipynb) Profit Drivers and Trends in the US and UK-Film Industry 2010-2023.ipynb](https://github.com/Micahnd/Profit-Drivers-and-Trends-in-the-US-and-UK-Film-Industry-2010-2023/blob/main/(Data%20Cleaning%20file.ipynb)%20Profit%20Drivers%20and%20Trends%20in%20the%20US%20and%20UK-Film%20Industry%202010-2023.ipynb)
+- **Data Cleaning and Preprocessing**: I handled missing values using **Python's Pandas** library, dropping inconsistent and missing values, also some missing values were sourced from trusted and verified web sources and manually plugged in. Duplicate entries were removed and columns containing irrelevant information removed, data was also filtered to contain only information that fit within the scope of the analysis. The Python code is available in the attached file, *[(Data Cleaning file.ipynb) Profit Drivers and Trends in the US and UK-Film Industry 2010-2023.ipynb](https://github.com/Micahnd/Profit-Drivers-and-Trends-in-the-US-and-UK-Film-Industry-2010-2023/blob/main/(Data%20Cleaning%20file.ipynb)%20Profit%20Drivers%20and%20Trends%20in%20the%20US%20and%20UK-Film%20Industry%202010-2023.ipynb)*
 - **Data Transformation and Feature Engineering**: Using **Power Bi**, I created new bridge tables to establish relationship between different factors in the data, calculated Correlation Coefficients and created an average profit column using the Power BI measure
 ```Power BI
 Average Net Profit = 
@@ -103,6 +103,15 @@ The pandemic's impact on the industry led to reduced movie productions, changed 
 Findings suggest budget is key, but genre and audience reception significantly impact profitability. The post-2020 surge in runtime and rating implies a shift towards complex storytelling by companies in a bid to survive the impact of the pandemic.
 
 This analysis provides valuable insights for film industry stakeholders, highlighting the importance of adapting to changing market conditions, diversifying production strategies, and investing in quality productions to ensure long-term profitability.
+
+## Recommendations
+
+To increase profitability and enhance audience engagement, I suggest the following to movie production companies:
+
+- Diversify production strategies by investing in a mix of genres, including those with proven track records of success (e.g., Adventure, Animation, Science Fiction)
+- Focus on quality over quantity by prioritizing fewer, higher-quality productions with moderate budgets ($50-100 million) and engaging runtimes (1.5-2.5 hours)
+- Adapt to changing market conditions by monitoring audience preferences and adjusting production strategies accordingly
+- Optimize budget allocation by balancing investment in production, marketing, and distribution to maximize profitability
 
 ## Limitations
 
