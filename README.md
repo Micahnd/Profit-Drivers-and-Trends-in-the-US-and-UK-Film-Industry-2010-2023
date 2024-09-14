@@ -1,6 +1,6 @@
 # Profit Drivers and Trends in the US and UK Film Industry 2010-2023
-## Project Description 
-This project explores the relationships between key factors in the UK and US movie industries, uncovering trends, establishing the major factors driving profit and suggesting areas for improvement in the film industry, using data from The Movie Database (TMDB). The analysis focuses on the period between 2010 and 2023, covering various aspects of film production and performance.
+## Abstract
+Exploring the US(United States Of America) and UK(United Kingdom) film industries (2010-2023), this analysis reveals relationships between profit, budget, genre and audience reception. Using the TMDB data, I uncovered key trends and correlations. Notably, genre and audience reception significantly impact profitability, and film companies adapted to the COVID-19 pandemic by prioritizing quality productions. This study offers valuable insights for industry stakeholders, emphasizing flexibility and quality in navigating changing markets.
 
 ## Key Objectives:
 
@@ -83,6 +83,18 @@ Finally, to identify more trends and gain more insight on the post 2020 reaction
 - Average rating remained relatively unaffected in 2020, indicating that audiences adapted to the changes in movie production, prioritizing other factors over runtime for that year.
 - The post-2020 surge in average runtime and rating implies a potential shift towards more complex, high-quality storytelling further conforming to the quality over quantity insight.
 
+Here's a conclusion based on your key insights:
+
+
+## Conclusion:
+
+This analysis has uncovered significant trends and insights in the US(United States Of America) and UK(United Kingdom) film industries from 2010 to 2023. A strong correlation between budget and profit suggests that production companies with higher budgets tend to generate more profit. However, the 2020 dip in profits, coinciding with the COVID-19 pandemic, reveals a more complex relationship between budget allocation, production strategies, and profitability.
+
+The pandemic's impact on the industry led to reduced movie productions, changed consumer behavior, and a temporary profit dip. Despite this, companies adapted by shifting their budget allocation towards more expensive, high-quality productions.
+
+Findings suggest budget is key, but genre and audience reception significantly impact profitability. The post-2020 surge in runtime and rating implies a shift towards complex storytelling by companies in a bid to survive the impact of the pandemic.
+
+This analysis provides valuable insights for film industry stakeholders, highlighting the importance of adapting to changing market conditions, diversifying production strategies, and investing in quality productions to ensure long-term profitability.
 
 
 
@@ -94,13 +106,15 @@ Finally, to identify more trends and gain more insight on the post 2020 reaction
 
 
 
-## Insights and Visualizations
+
+
+
 
 
 
 ## Referrences
-- Movies main data obtained from asaniczka, (2024). Full TMDB Movies Dataset 2024 (1M Movies) (Data obtained from The Movie Database [TMDB]). Retrieved from [Kaggle](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data)
+- asaniczka, (2024). Full TMDB Movies Dataset 2024 (1M Movies) [Dataset]. Retrieved from [Kaggle](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data)
 
-- Popularity metrics obtained from TMDB Popularity Guides, (2024): Retrieved from [TMDB docs](https://developer.themoviedb.org/docs/popularity-and-trending#tv-shows)
+- TMDB Popularity Guides, (2024): Retrieved from [TMDB docs](https://developer.themoviedb.org/docs/popularity-and-trending#tv-shows)
 
-- Movie Parent Company data obtained and clarified from Wikipedia. (n.d.). List of film production companies. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/List_of_film_production_companies)
+- Wikipedia. (n.d.). List of film production companies. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/List_of_film_production_companies)
